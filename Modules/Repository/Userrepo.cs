@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Hospital.Modules.DTOs;
 using Hospital.Modules.Models;
 
 namespace Hospital.Modules.Repository
@@ -16,6 +17,8 @@ namespace Hospital.Modules.Repository
 
 
         Task<user> UpdateUser(user user);
+
+        Task<user> Loginuse(LoginDto logindata);
 
     }
 }

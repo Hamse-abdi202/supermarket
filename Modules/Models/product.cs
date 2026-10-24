@@ -8,6 +8,9 @@ namespace Hospital.Modules.Models
     public class product:BaseEntity
     {
         public string productname { get; set; }
+        public int productPrice { get; set; }
+
+        public int productQuentity { get; set; }
         
     }
 }
